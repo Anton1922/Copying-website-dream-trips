@@ -1,0 +1,143 @@
+/**************************
+SECTION OUR TEAM
+**************************/
+
+.team {
+	margin: 15px auto;
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	max-width: 1200px;
+
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	@media screen and (min-width: 961px) {
+		width: 95%;
+	}
+
+	&__container {
+
+		@media screen and (min-width: 768px) {
+			margin: 10px auto;
+			width: 45%;
+		}
+
+		@media screen and (min-width: 961px) {
+			margin: 10px auto;
+			width: 25%;
+		}
+
+	}
+
+	&__subtitle {
+		margin: 0 auto;
+		width: 80%;
+		text-align: center;
+		font-size: 25px;
+		font-weight: 300;
+		color: #7a7a7a;
+
+    &--uppercase {
+      text-transform: uppercase;
+    }
+	}
+
+	&__image {
+		margin: 25px auto;
+		width: 200px;
+		height: 200px;
+		background-position: center;
+		background-size: cover;
+		border: solid 2px #000;
+		border-radius: 50%;
+	}
+
+  &__background1 {
+    background-image: url("../images/silhouette.jpg");
+  }
+
+  &__background2 {
+    background-image: url("../images/silhouette2.jpg");
+  }
+
+  &__background3 {
+    background-image: url("../images/silhouette4.jpg");
+  }
+
+  &__background4 {
+    background-image: url("../images/silhouette3.jpg");
+  }
+
+  &__background5 {
+    background-image: url("../images/team5.jpg");
+  }
+
+  &__background6 {
+    background-image: url("../images/team6.jpeg");
+  }
+
+  &__background7 {
+    background-image: url("../images/team7.png");
+  }
+
+  &__background8 {
+    background-image: url("../images/team8.jpg");
+  }
+
+  &__background9 {
+    background-image: url("../images/team9.jpg");
+  }
+
+  &__background10 {
+    background-image: url("../images/team10.jpg");
+  }
+
+  &__background11 {
+    background-image: url("../images/team11.png");
+  }
+
+  &__background12 {
+    background-image: url("../images/team12.jpg");
+  }
+
+  &__background13 {
+    background-image: url("../images/team13.jpg");
+  }
+
+  &__background14 {
+    background-image: url("../images/headermini.jpg");
+  }
+
+  &__background15 {
+    background-image: url("../images/team15.jpg");
+  }
+
+
+}
+
+.team--hidden {
+  display: none;
+  flex-direction: column;
+  margin: 15px auto;
+  width: 95%;
+  max-width: 1200px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 961px) {
+    width: 95%;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+/*********************
+SECTION COMPANY SITES
+*********************/
+
+.sites {
+	margin: 15px auto;
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	max-width: 1200px;
+
+  @media screen and (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+	&__image {
+  	margin: 25px auto;
+  	width: 200px;
+  	height: 200px;
+  	background-position: center;
+  	background-size: cover;
+  }
+
+  &__link {
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    word-break: break-all;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff8562;
+  }
+
+  &__container {
+    @media screen and (min-width: 768px) {
+      margin: 10px auto;
+      width: 45%;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 25%;
+    }
+  }
+}
+
+
+.sites__background1 {
+	background-image: url(../images/WV.jpg);
+}
+
+.sites__background2 {
+  background-image: url(../images/headermini.jpg);
+}
+
+.sites__background3 {
+  background-image: url(../images/DTR.png);
+}
+
+.sites__background4 {
+    background-image: url(../images/auto.png);
+}

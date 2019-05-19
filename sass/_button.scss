@@ -1,0 +1,36 @@
+.button {
+	margin: 50px auto;
+	padding: 20px 40px;
+	max-width: 500px;
+  box-sizing: content-box;
+  border: 1px solid #232629;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #232629;
+	border: 1px solid #fff;
+
+  &:hover {
+  color: #232629;
+  border: 1px solid #232629;
+  background-color: #fff;
+  cursor: pointer;
+  }
+
+  &:hover a {
+  color: #232629;
+  background-color: #fff;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+}
+
+#network-marketing--other-text {
+  text-transform: none;
+}
+
+
+

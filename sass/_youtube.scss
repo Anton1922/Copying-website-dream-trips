@@ -1,0 +1,100 @@
+/**************************
+SECTION YOUTUBE_CHANNELS
+**************************/
+
+.youtube {
+	margin: 15px auto;
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	max-width: 1200px;
+
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+
+	& span {
+		text-transform: uppercase;
+	}
+
+	&__container {
+		@media screen and (min-width: 768px) {
+			margin: 10px auto;
+			width: 45%;
+		}
+
+		@media screen and (min-width: 961px) {
+			width: 25%;
+		}
+	}
+
+	&__image {
+		margin: 25px auto;
+		width: 150px;
+		height: 150px;
+		background-position: center;
+		background-size: contain;
+	  background-repeat: no-repeat;
+	  border: 2px solid #000;
+		border-radius: 50%;
+	}
+
+	&__subtitle {
+		margin: 50px auto;
+		width: 90%;
+		font-size: 20px;
+		font-weight: 600;
+		text-align: center;
+
+		@media screen and (min-width: 768px) {
+			font-size: 28px;
+			font-weight: 700;
+		}
+	}
+}
+
+.youtube__background1 {
+  background-image: url("../images/y1.png");
+}
+
+.youtube__background2 {
+	background-image: url("../images/y2.jpg");
+}
+
+.youtube__background3 {
+	background-image: url("../images/y5.jpg");
+}
+
+.youtube__background4 {
+	background-image: url("../images/y7.jpg");
+}
+
+.youtube__background5 {
+	background-image: url("../images/y4.png");
+}
+
+.youtube__background6 {
+	background-image: url("../images/y3.png");
+}
+
+.youtube__background7 {
+	background-image: url("../images/bron.jpg");
+}
+
+.youtube__background8 {
+	background-image: url("../images/y6.jpg");
+}
+
+.youtube__background9 {
+	background-image: url("../images/y9.png");;
+}
+
+.youtube__background10 {
+	background-image: url("../images/y8.jpg");
+}
+
+.youtube__background11 {
+	background-image: url("../images/y10.png");
+}

@@ -1,0 +1,19 @@
+/**********
+FOOTER
+**********/
+
+.footer {
+	margin: 0 auto;
+	padding: 25px 0;
+	width: 100%;
+	font-family: 'Anton', sans-serif;
+	background-color: #232629;
+
+	&__link {
+		padding-left: 15px;
+		text-decoration: none;
+		font-size: 14px;
+		color: #706d6d;
+	}
+}
+

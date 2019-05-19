@@ -1,0 +1,98 @@
+/**************************
+SECTION TELEGRAM-CHANNELS
+**************************/
+
+.telegram {
+	display: flex;
+	flex-direction: column;
+	margin: 15px auto;
+	width: 95%;
+	max-width: 1200px;
+
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	&__container {
+		display: flex;
+		flex-wrap: wrap;
+
+		@media screen and (min-width: 768px) {
+			flex-direction: column;
+			margin: 10px auto;
+			width: 45%;
+		}
+
+		@media screen and (min-width: 961px) {
+			width: 25%;
+		}
+	}
+
+	&__text {
+		margin: 15px auto;
+		display: block;
+		width: 90%;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+	&__image {
+		margin: 15px auto;
+		width: 150px;
+		height: 150px;
+		background-position: center;
+		background-size: cover;
+		border-radius: 50%;
+	}
+
+	&__background1 {
+		background-image: url("../images/DTLocal.jpg");
+	}
+
+	&__background2 {
+		background-image: url("../images/ring.jpg");
+	}
+
+	&__background3 {
+		background-image: url("../images/red.jpg");
+	}
+
+	&__background4 {
+		background-image: url("../images/books.jpg");
+	}
+
+	&__background5 {
+		background-image: url("../images/setevik.jpg");
+	}
+
+	&__background6 {
+		background-image: url("../images/boats.jpg");
+	}
+
+	&__background7 {
+		background-image: url("../images/internationalchat.jpg");
+	}
+
+	&__background8 {
+		background-image: url("../images/bot2.jpg");
+	}
+}
+
+.telegram--hidden {
+	display: none;
+	flex-direction: column;
+	margin: 15px auto;
+	width: 95%;
+	max-width: 1200px;
+
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
+
+
+
+

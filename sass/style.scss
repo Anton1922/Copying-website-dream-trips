@@ -1,0 +1,40 @@
+@import "../fonts/transfonter/stylesheet.css";
+@import "author";
+@import "awards";
+@import "button";
+@import "company-sites";
+@import "footer";
+@import "form";
+@import "header";
+@import "line";
+@import "link";
+@import "mobile-attachment";
+@import "onthetop";
+@import "player";
+@import "raitings";
+@import "reliability";
+@import "team";
+@import "telegram";
+@import "text";
+@import "titles";
+@import "video";
+@import "youtube";
+
+
+/*******
+GENERAL
+*******/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.wrapper {
+	font-family: "Rubik",Arial,sans-serif;
+}
